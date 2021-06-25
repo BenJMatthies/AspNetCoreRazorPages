@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\AspNetCoreCommon\DataLibrary\DataLibrary.csproj" />
+    <ProjectReference Include="..\..\AspNetCoreCommon\TimsDinerDB\TimsDinerDB.sqlproj" />
+  </ItemGroup>
+
 </Project>

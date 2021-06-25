@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreRazorPages", "AspNetCoreRazorPages\AspNetCoreRazorPages.csproj", "{FDC68637-39F9-4E58-AE00-0F53CB03704F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLibrary", "..\AspNetCoreCommon\DataLibrary\DataLibrary.csproj", "{5844ECCB-1274-4AE0-BC34-4061F1EA2746}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TimsDinerDB", "..\AspNetCoreCommon\TimsDinerDB\TimsDinerDB.sqlproj", "{7CB04F19-1506-4057-8F4C-EF82B3FA1173}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{FDC68637-39F9-4E58-AE00-0F53CB03704F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDC68637-39F9-4E58-AE00-0F53CB03704F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDC68637-39F9-4E58-AE00-0F53CB03704F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5844ECCB-1274-4AE0-BC34-4061F1EA2746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5844ECCB-1274-4AE0-BC34-4061F1EA2746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5844ECCB-1274-4AE0-BC34-4061F1EA2746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5844ECCB-1274-4AE0-BC34-4061F1EA2746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB04F19-1506-4057-8F4C-EF82B3FA1173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB04F19-1506-4057-8F4C-EF82B3FA1173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB04F19-1506-4057-8F4C-EF82B3FA1173}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7CB04F19-1506-4057-8F4C-EF82B3FA1173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB04F19-1506-4057-8F4C-EF82B3FA1173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB04F19-1506-4057-8F4C-EF82B3FA1173}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

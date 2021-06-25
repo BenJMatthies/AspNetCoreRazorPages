@@ -1,3 +1,4 @@
+using DataLibrary.Db;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -24,6 +25,11 @@ namespace AspNetCoreRazorPages
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddSingleton(new ConnectionStringData
+            {
+                SqlConnectionName = "Default"
+            });
+            services.AddSingleton<IDataAccess, SqlDb>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
